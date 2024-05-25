@@ -1,136 +1,132 @@
-const logotext = "JOHN";
+const logotext = "ANTHONY";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Anthony",
+    description: "I’m Anthony data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Anthony",
     animated: {
-        first: "I love coding",
+        first: "I am a Front End developer",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "I want to expand my skills further than the front-end",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: `
+        Passionné par la création numérique et le développement web, je suis un développeur web créatif et enthousiaste avec une passion pour la résolution de problèmes et l'innovation. Mon objectif est de créer des expériences numériques exceptionnelles et intuitives qui inspirent et engagent les utilisateurs.
+
+        Je suis également investi dans l'exploration des cultures du monde, la promotion du bien-être et de l'équilibre de vie, ainsi que dans la compétitivité et l'esprit d'équipe de l'e-sport. En combinant ma passion pour le développement web avec mes intérêts personnels variés, je cherche à apporter une perspective unique et un sens de l'ouverture à chaque projet que j'entreprends.
+    `,
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
-};
+  };
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: `
+    En dehors de mon travail en tant que développeur web, je suis profondément passionné par l'exploration des valeurs, des normes et des traditions culturelles qui façonnent notre monde. Mon intérêt pour la richesse et la diversité des cultures me guide dans ma vie personnelle et professionnelle, et nourrit ma curiosité incessante pour les aspects uniques de chaque société.
+
+    Je suis particulièrement fasciné par l'exploration des valeurs sociales et des normes qui régissent les interactions humaines, ainsi que par la célébration des coutumes et des traditions qui renforcent le tissu social. Cette passion me pousse à chercher constamment de nouvelles expériences et à élargir mes horizons, que ce soit à travers des projets personnels, des initiatives communautaires ou des événements culturels.
+
+    Parallèlement, je suis également investi dans la promotion du bien-être et de l'équilibre de vie, croyant fermement en l'importance de l'activité physique, du sommeil et de la gestion du stress pour maintenir une vie équilibrée et épanouissante. En tant que fervent adepte de l'e-sport, je suis également passionné par l'aspect compétitif et l'esprit d'équipe de cette discipline en plein essor.
+
+    En intégrant ma passion pour la culture, le bien-être et l'e-sport dans mon travail de développement web, je cherche à apporter une perspective unique et un sens de l'ouverture à chaque projet que j'entreprends. Mon engagement envers la découverte et la célébration de la diversité culturelle, combiné à ma volonté de promouvoir le bien-être et l'esprit sportif, est une source d'inspiration constante qui enrichit mon parcours professionnel et nourrit ma créativité.
+`,
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
 
 const skills = [{
-        name: "Python",
+        name: "HTML",
         value: 90,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "CSS",
+        value: 65,
     },
     {
         name: "Javascript",
-        value: 80,
+        value: 55,
     },
     {
         name: "React",
         value: 60,
     },
-    {
-        name: "Jquery",
-        value: 85,
-    },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    title: "Optimisation des Performances Front-End",
+    description: "Amélioration de la vitesse et de la performance des sites web en utilisant des techniques d'optimisation comme la minification des fichiers, le lazy loading des images.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Intégration de Maquettes en HTML/CSS",
+        description: "Transformation de maquettes et de designs fournis par les designers en pages web interactives et fidèles aux attentes..",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Développement de Composants Réactifs avec React.js",
+        description: "Création de composants réactifs et dynamiques pour des applications web modernes en utilisant la bibliothèque React.",
     },
+    {
+        title: "Mise en Place de Formulaires et d'Interactions Utilisateur",
+        description : "Développement de formulaires interactifs et de fonctionnalités utilisateur-friendly pour améliorer l'expérience utilisateur.",
+    }
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "images/Nina_Carducci_Performance_Report.png",
+        description: "Nina Carducci - Optimisation de performance du site d'une photographe",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "images/Nina_Carducci_Accueil.png",
+        description: "Nina Carducci - Page d'accueil avec optimisation du contenu du slider",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "images/Nina_Carducci_About_Nina.png",
+        description: "Nina Carducci - About me",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "images/Nina_Carducci_Gallery.png",
+        description: "Nina Carducci - Portfolio avec fonctionnalitée de filtrage",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "images/Sophie_Bluel_Page_d'accueil_offline.png",
+        description: "Sophie Bluel - Page d'accueil en état d'utilisateur offline",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "images/Sophie_Bluel_Gallery_Appartement_Filter.png",
+        description: "Sophie Bluel - Gallery avec fonctionnalitée de filtrage en état offline d'utilisation",
         link: "#",
     },
 
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "images/Sophie_Bluel_Gallery_Appartement_Filter.png",
+        description: "Sophie Bluel - Gallery avec fonctionnalitée de filtrage en état offline d'utilisation",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "images/Sophie_Bluel_Page_d'accueil_online.png",
+        description: "Sophie Bluel - Page d'accueil en état d'utilisateurs online",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "images/Sophie_Bluel_Modal_Customisation_Admin.png",
+        description: "Sophie Bluel - Modal d'affichage des projets lors d'une connexion validé",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "images/Kasa_Immobilier_Page_D'accueil.png",
+        description: "Kasa Immobilier - Page d'accueil avec son contenu généré dynamiquement",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "images/Kasa_Immobilier_Card.png",
+        description: "Kasa Immobilier - génération du contenu des cards dynamiquement",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "images/Kasa_Immobilier_Collapse.png",
+        description: "Kasa Immobilier - Collapse d'informations concernant l'agence",
         link: "#",
     },
 ];
@@ -156,7 +152,6 @@ export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
     skills,
     services,
     introdata,
